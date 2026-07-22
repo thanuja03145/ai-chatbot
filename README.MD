@@ -1,17 +1,19 @@
-
-# Simple AI Chat Assistant
+# Thanuja.k Application
 
 ## Project Overview
 
-This project is a simple AI chatbot built using Python and the OpenAI API.
+This project is a custom web application built using Python, developed by thanuja.k.
 
 ## Features
 
-- Interactive chat
-- Maintains conversation
-- Handles empty input
-- Error handling
-- Uses .env for API key security
+- Interactive application interface
+- Custom user response system
+- Handles empty inputs safely
+- Secure environment configuration using .env
+
+## Project Preview
+
+![Project Screenshot](screenshot.png)
 
 ## Installation
 
@@ -23,9 +25,9 @@ Install dependencies.
 
     pip install -r requirements.txt
 
-Create a .env file.
+Create a .env file (refer to .env.example).
 
-    OPENAI_API_KEY=your_api_key
+    API_KEY=your_api_key_here
 
 Run the application.
 
@@ -34,6 +36,10 @@ Run the application.
 ## Dependencies
 
 - Python 3.10+
-- openai
 - python-dotenv
+
+---
+Developed by **thanuja.k**
+
+
 
